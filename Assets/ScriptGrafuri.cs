@@ -11,26 +11,25 @@ public GameObject[] Cubes;
 public sef cuburi;
 private apare verde;
 public int scena;
-private dispare catto;
+public dispare[] catto;
+public sef ValoareLimba;
 
 private void Start()
     {
-        catto = GetComponent<dispare>();
         verde = GetComponent<apare>();
-        
     }
 private void OnMouseDown ()
 {
-      catto.dispareImaginea();
+      catto[ValoareLimba.contor].dispareImaginea();
   if(gameObject == Cubes[cuburi.contor])
   {  verde.apareImaginea();
      cuburi.contor++;
-     catto.dispareImaginea();
-     if(gameObject == Cubes[7])
+     catto[ValoareLimba.contor].dispareImaginea();
+     if(Cubes.Length==8)
      { StartCoroutine(InvokeMenuDelayed(3f));
      }
   }
-  else catto.apareImaginea();
+  else catto[ValoareLimba.contor].apareImaginea();
   
 
   

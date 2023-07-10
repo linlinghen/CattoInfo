@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/alegereLimba.unity
+    guid: 3dba5b29ed0c8ea4ca670ca32b0dd044
+  - enabled: 1
     path: Assets/Scenes/comic.unity
     guid: fa62f64dbdab82646b5befc2b7421b26
   - enabled: 1

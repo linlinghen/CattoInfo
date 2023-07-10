@@ -12,13 +12,14 @@ public class swapCubes : MonoBehaviour
     //replace - cubul cu care trebuie inlocuit (in functie de contor (ContorComun.contor))
     public sef ContorComun;
     private Renderer cubeRenderer; //utilizat pentru schimbarea culorii
-    private dispare cattoFeedback; //Feedback la alegerea gresita
+    public dispare[] cattoFeedback; //Feedback la alegerea gresita ++
     private apare AlegereCorecta;
     public GameObject imagine;
+    public sef ValoareLimba; //
 
     private void Start()
     {
-        cattoFeedback = GetComponent<dispare>();
+        //cattoFeedback = GetComponent<dispare>();
         AlegereCorecta = GetComponent<apare>();
     }
 
@@ -39,7 +40,7 @@ public class swapCubes : MonoBehaviour
 
     private void OnMouseDown()
     {
-        cattoFeedback.dispareImaginea(); //dispare Feedbackul
+        cattoFeedback[ValoareLimba.contor].dispareImaginea(); //dispare Feedbackul
         if (ContorComun.contor < cubes.Length-1 && cubes[order[ContorComun.contor]] == gameObject) //daca cubul ales e corect
         {
             SwapCubes(cubes[order[ContorComun.contor]], cubes[replace[ContorComun.contor]]); //se schimba cuburile
@@ -53,12 +54,12 @@ public class swapCubes : MonoBehaviour
             }
             ContorComun.contor++;
         }
-        else cattoFeedback.apareImaginea(); //Feedback la alegerea gresita
+        else cattoFeedback[ValoareLimba.contor].apareImaginea(); //Feedback la alegerea gresita
     }
 
      private IEnumerator LoadMenuAfterDelay() //functie pentru schimbarea scenei
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

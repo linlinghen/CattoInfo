@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708984, g: 0.37837017, b: 0.35722524, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -266,6 +266,7 @@ GameObject:
   m_Component:
   - component: {fileID: 39324965}
   - component: {fileID: 39324964}
+  - component: {fileID: 39324966}
   m_Layer: 0
   m_Name: '4 script  '
   m_TagString: Untagged
@@ -285,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc18b41327d04ef4bbef88b00a6d3da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nrsc: 11
+  nrsc: 12
 --- !u!4 &39324965
 Transform:
   m_ObjectHideFlags: 0
@@ -301,6 +302,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &39324966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39324963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f7894776110c478475a92be9fe8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buton: {fileID: 1182183139}
+  imagine: {fileID: 21300000, guid: 85b7bff96c8d01242a1528c7f53cc5c3, type: 3}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &223326294
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,8 +412,9 @@ GameObject:
   m_Component:
   - component: {fileID: 227637777}
   - component: {fileID: 227637778}
+  - component: {fileID: 227637779}
   m_Layer: 0
-  m_Name: 2script
+  m_Name: 2 script
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -429,7 +447,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc18b41327d04ef4bbef88b00a6d3da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nrsc: 5
+  nrsc: 6
+--- !u!114 &227637779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227637776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f7894776110c478475a92be9fe8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buton: {fileID: 652702581}
+  imagine: {fileID: 21300000, guid: acfa9ea87b401d4459f08e5ea698f1bd, type: 3}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &592280284
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,6 +892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 890927965}
   - component: {fileID: 890927964}
+  - component: {fileID: 890927966}
   m_Layer: 0
   m_Name: '3 script '
   m_TagString: Untagged
@@ -877,7 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc18b41327d04ef4bbef88b00a6d3da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nrsc: 9
+  nrsc: 10
 --- !u!4 &890927965
 Transform:
   m_ObjectHideFlags: 0
@@ -893,6 +928,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &890927966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890927963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f7894776110c478475a92be9fe8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buton: {fileID: 780861813}
+  imagine: {fileID: 21300000, guid: f5098aef0ec37b647ac8a5986dd8b4cd, type: 3}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &1182183137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,6 +1261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2095691862}
   - component: {fileID: 2095691863}
+  - component: {fileID: 2095691864}
   m_Layer: 0
   m_Name: 1 script
   m_TagString: Untagged
@@ -1244,4 +1296,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc18b41327d04ef4bbef88b00a6d3da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nrsc: 4
+  nrsc: 5
+--- !u!114 &2095691864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095691861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55f7894776110c478475a92be9fe8d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buton: {fileID: 17995719}
+  imagine: {fileID: 21300000, guid: 994e9c866963164499c07bc40534cd54, type: 3}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}

@@ -9,18 +9,18 @@ public class BinarySearchScriptMain : MonoBehaviour
     private int[] cubApasat = { 3, 5, 4 }; //cubul care trebuie sa fie apasat in functie de Cuburi.contor
     private int[] cuburiColorate = { 0, 6, 4 }; //un reper pentru intervalul de cuburi a caror culoare trebuie schimbata in functie de Cuburi.contor
     public sef Cuburi; //contor comun
-    private dispare cattoFeedback; //feedback
+    public dispare[] cattoFeedback; //feedback
     private apare DisplayImageCube; //imaginea de de-asupra cubului
+    public sef ValoareLimba;
 
     private void Start()
     {
-       cattoFeedback = GetComponent<dispare>();
-        DisplayImageCube = GetComponent<apare>();
+       DisplayImageCube = GetComponent<apare>();
     }
 
     private void OnMouseDown()
     {
-        cattoFeedback.dispareImaginea(); //dispare feedbackul inainte de noua alegere
+        cattoFeedback[ValoareLimba.contor].dispareImaginea(); //dispare feedbackul inainte de noua alegere
         if (gameObject == cubes[cubApasat[Cuburi.contor]])// daca cubul selectat este cel corect
         {
             if (gameObject == cubes[4]) //daca a ajuns la finalul nivelului
@@ -53,7 +53,7 @@ public class BinarySearchScriptMain : MonoBehaviour
                 Cuburi.contor++; //se mareste contorul
             }
         }
-        else cattoFeedback.apareImaginea(); //apare feedbackul la alegerea gresita
+        else cattoFeedback[ValoareLimba.contor].apareImaginea(); //apare feedbackul la alegerea gresita
 
     }
 
@@ -66,7 +66,7 @@ public class BinarySearchScriptMain : MonoBehaviour
     private IEnumerator LoadAfterDelay() //funtia pentru schimbarea scenei
     {
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     
 }

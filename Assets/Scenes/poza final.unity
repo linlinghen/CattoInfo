@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708984, g: 0.37837017, b: 0.35722524, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.03}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 207.98674, y: -674.84875}
+  m_AnchoredPosition: {x: 275, y: -868}
   m_SizeDelta: {x: 177.8967, y: 110.7461}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &438774765
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 79dcbf06bfa68604aa3f54e8d5a603d4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 44df3b3de0935eb479415fbede3c5cc1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 1142088736}
   - component: {fileID: 1142088735}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: 'Image '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -520,7 +520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.5199, y: 88.70254}
+  m_AnchoredPosition: {x: -22, y: 238}
   m_SizeDelta: {x: 766.9602, y: 1247.1001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1384146425
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 60c91c2987f488d4490f91ab21d6844d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fa330ef3c63eeaf469cc1fdf7cd078a7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -692,7 +692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc18b41327d04ef4bbef88b00a6d3da8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nrsc: 1
+  nrsc: 2
 --- !u!4 &1598664678
 Transform:
   m_ObjectHideFlags: 0

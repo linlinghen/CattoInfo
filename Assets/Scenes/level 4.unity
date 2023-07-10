@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -259,6 +259,11 @@ MonoBehaviour:
   - {fileID: 29423649}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &29423656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -647,7 +652,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &374847262
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +938,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &476832094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1054,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &478334040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,7 +1254,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &509518891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,7 +1370,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &561588074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,7 +1722,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &651192818
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,6 +1864,11 @@ MonoBehaviour:
   - {fileID: 651192818}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &651192825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1971,7 +2005,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &776948221
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,7 +2190,6 @@ GameObject:
   - component: {fileID: 827157865}
   - component: {fileID: 827157864}
   - component: {fileID: 827157862}
-  - component: {fileID: 827157867}
   - component: {fileID: 827157866}
   - component: {fileID: 827157861}
   - component: {fileID: 827157860}
@@ -2275,6 +2312,11 @@ MonoBehaviour:
   - {fileID: 827157859}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &827157866
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,18 +2330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imagine: {fileID: 1902682522}
---- !u!114 &827157867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 827157859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7fd0c2b8336d0344b9f1844b632f4db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &860910219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,7 +2469,12 @@ MonoBehaviour:
   - {fileID: 1467852232}
   - {fileID: 860910219}
   cuburi: {fileID: 1516812042}
-  scena: 2
+  scena: 3
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!95 &860910226
 Animator:
   serializedVersion: 5
@@ -2825,7 +2860,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
+--- !u!1 &1077865362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1077865366}
+  - component: {fileID: 1077865365}
+  - component: {fileID: 1077865363}
+  - component: {fileID: 1077865364}
+  m_Layer: 0
+  m_Name: Image en
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1077865363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077865362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 893c89396b2bb9949a9594ebabf37ee5, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1077865364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077865362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39df59184e07044c956078cc489543b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagine: {fileID: 1077865362}
+--- !u!222 &1077865365
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077865362}
+  m_CullTransparentMesh: 1
+--- !u!224 &1077865366
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077865362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1827183854}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000015259, y: 508.72}
+  m_SizeDelta: {x: 800, y: 403.802}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1090125084
 GameObject:
   m_ObjectHideFlags: 0
@@ -2946,6 +3075,11 @@ MonoBehaviour:
   - {fileID: 1090125084}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &1090125090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3347,7 +3481,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &1269454488
 GameObject:
   m_ObjectHideFlags: 0
@@ -3468,6 +3606,11 @@ MonoBehaviour:
   - {fileID: 1269454488}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &1269454494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3999,7 +4142,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &1362223570
 GameObject:
   m_ObjectHideFlags: 0
@@ -4291,7 +4438,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439104559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4520,6 +4667,11 @@ MonoBehaviour:
   - {fileID: 1467852232}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &1467852239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4656,7 +4808,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &1512451219
 GameObject:
   m_ObjectHideFlags: 0
@@ -5299,6 +5455,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1902682523}
+  - {fileID: 1077865366}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5580,8 +5737,9 @@ GameObject:
   - component: {fileID: 1902682523}
   - component: {fileID: 1902682525}
   - component: {fileID: 1902682524}
+  - component: {fileID: 1902682526}
   m_Layer: 0
-  m_Name: Image
+  m_Name: Image ro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5645,6 +5803,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902682522}
   m_CullTransparentMesh: 1
+--- !u!114 &1902682526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902682522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39df59184e07044c956078cc489543b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagine: {fileID: 1902682522}
 --- !u!1 &1919879941
 GameObject:
   m_ObjectHideFlags: 0
@@ -5766,6 +5937,11 @@ MonoBehaviour:
   - {fileID: 1919879941}
   cuburi: {fileID: 1516812042}
   scena: 0
+  catto:
+  - {fileID: 1902682526}
+  - {fileID: 1077865364}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!114 &1919879947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5915,7 +6091,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec12321bc9dc16a4b993ad34bb4855b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Catto: {fileID: 1902682524}
+  Catto:
+  - {fileID: 1902682524}
+  - {fileID: 1077865363}
+  ValoareLimba: {fileID: 8214737527444963088, guid: 77f29480bd74ed6428b4923fdd1e7166,
+    type: 3}
 --- !u!1 &2086502318
 GameObject:
   m_ObjectHideFlags: 0

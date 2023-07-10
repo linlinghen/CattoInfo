@@ -3,10 +3,11 @@ using UnityEngine.UI;
 
 public class avertizare : MonoBehaviour
 {
-    public Image Catto;
+    public Image[] Catto;
+    public sef ValoareLimba;
 
     private void OnMouseDown()
     {
-        Catto.gameObject.SetActive(true);
+        Catto[ValoareLimba.contor].gameObject.SetActive(true);
     }
 }
