@@ -4,7 +4,8 @@ using UnityEngine.UI;
 using System.Collections;
 
 public class BinarySearchScriptMain : MonoBehaviour
-{   public GameObject[] Imagini;
+{   public GameObject[] Imagini; //cutiile verzi
+    public GameObject[] Imagini2; //cutiile care vor disparea
     public GameObject[] cubes; // vector de cuburi in joc
     private int[] cubApasat = { 3, 5, 4 }; //cubul care trebuie sa fie apasat in functie de Cuburi.contor
     private int[] cuburiColorate = { 0, 6, 4 }; //un reper pentru intervalul de cuburi a caror culoare trebuie schimbata in functie de Cuburi.contor
@@ -12,6 +13,7 @@ public class BinarySearchScriptMain : MonoBehaviour
     public dispare[] cattoFeedback; //feedback
     private apare DisplayImageCube; //imaginea de de-asupra cubului
     public sef ValoareLimba;
+    
 
     private void Start()
     {
@@ -25,8 +27,8 @@ public class BinarySearchScriptMain : MonoBehaviour
         {
             if (gameObject == cubes[4]) //daca a ajuns la finalul nivelului
             {   Imagini[4].SetActive(true);
-                Renderer cubeRenderer = cubes[4].GetComponent<Renderer>();
-                cubeRenderer.material.color = Color.green; //se schimba culoarea
+                Imagini2[4].SetActive(false);
+                
                 DisplayImageCube.apareImaginea(); //apare tortul
 
                 StartCoroutine(LoadAfterDelay()); //se incarca meniul
@@ -47,7 +49,7 @@ public class BinarySearchScriptMain : MonoBehaviour
                 for (int j = a; j <= b; j++) //sunt colorate toate cuburile din interval
                 {
                     Imagini[j].SetActive(true);
-                    ChangeColor(cubes[j]);
+                    Imagini2[j].SetActive(false);
                 }
 
                 Cuburi.contor++; //se mareste contorul
@@ -57,11 +59,7 @@ public class BinarySearchScriptMain : MonoBehaviour
 
     }
 
-    private void ChangeColor(GameObject cube) //funtia pentru schimbarea culorii
-    {
-        Renderer cubeRenderer = cube.GetComponent<Renderer>();
-        cubeRenderer.material.color = Color.green;
-    }
+    
     
     private IEnumerator LoadAfterDelay() //funtia pentru schimbarea scenei
     {

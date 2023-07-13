@@ -15,6 +15,8 @@ public class swapCubes : MonoBehaviour
     public dispare[] cattoFeedback; //Feedback la alegerea gresita ++
     private apare AlegereCorecta;
     public GameObject imagine;
+    public GameObject imagine2;
+    public GameObject imagine3;
     public sef ValoareLimba; //
 
     private void Start()
@@ -46,9 +48,11 @@ public class swapCubes : MonoBehaviour
             SwapCubes(cubes[order[ContorComun.contor]], cubes[replace[ContorComun.contor]]); //se schimba cuburile
             ChangeColor (cubes[order[ContorComun.contor]]); // se schimba culoarea
             AlegereCorecta.apareImaginea();
+            imagine2.SetActive(false);
             if (ContorComun.contor == 3) //daca a ajuns la finalul nivelului
             {
             imagine.SetActive(true);
+            imagine3.SetActive(false);
             ChangeColor (cubes[0]);
             StartCoroutine(LoadMenuAfterDelay()); //se schimba scena
             }

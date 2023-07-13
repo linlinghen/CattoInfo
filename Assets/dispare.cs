@@ -11,6 +11,6 @@ public class dispare : MonoBehaviour
      public void apareImaginea()
     {
             imagine.SetActive(true);
-    }
+    }
 }
 
